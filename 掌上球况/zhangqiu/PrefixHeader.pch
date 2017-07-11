@@ -1,0 +1,148 @@
+//
+//  PrefixHeader.pch
+//  zhangqiu
+//
+//  Created by dllo on 16/3/24.
+//  Copyright © 2016年 dllo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "NewViewController.h"
+#import "RotationView.h"
+#import "News.h"
+#import "NewTableViewCell.h"
+#import "UIImageView+WebCache.h"
+#import "Video.h"
+#import "VideoCollectionViewCell.h"
+#import "VideoInfo.h"
+#import "VideoTableViewCell.h"
+#import "VideoViewController.h"
+#import "DropDown1.h"
+#import "NearViewController.h"
+#import "AFNetworking.h"
+//#import "FootHead.h"
+#import "SportInfoViewController.h"
+#import "FootInfoViewController.h"
+#import "NBAInfoViewController.h"
+#import "NearViewController.h"
+#import "PhotoViewController.h"
+#import "PhotoViewController.h"
+#import "AppDelegate.h"
+#import "RootViewController.h"
+#import "SideViewController.h"
+#import <UIKit/UIKit.h>
+#import "FootInfo.h"
+#import "ReportViewController.h"
+#import "VideoInfoViewController.h"
+#import "VideoI.h"
+#import "LiuXSegmentView.h"
+#import "VideoPlayViewController.h"
+#import <WebKit/WebKit.h>
+#import "ReportTag.h"
+#import "ReportCollectionViewCell.h"
+#import "ReportTableViewCell.h"
+#import "ReportInfo.h"
+#import "TagView.h"
+#import "HappyViewController.h"
+#import "SportViewController.h"
+#import "HappyCollectionViewCell.h"
+#import "Happy.h"
+#import "HappyTableViewCell.h"
+#import "AVPlayerView.h"
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+#import "playViewController.h"
+#import "SideTableViewCell.h"
+#import "WebTableViewCell.h"
+#import "VideoIn.h"
+#import "MJRefresh.h"
+#import "DataBaseHandle.h"
+#import "FMDatabase.h"
+#import "FMDatabaseQueue.h"
+#import "FavoriteViewController.h"
+#import "FavoriteNewsCollectionViewCell.h"
+#import "FavoriteHappyCollectionViewCell.h"
+#import "FavoriteVideoCollectionViewCell.h"
+#import "FavoriteHappyTableViewCell.h"
+#import "BackImageViewController.h"
+#import "BackImageCollectionViewCell.h"
+
+#import "BackgrountViewController.h"
+
+#import "BaseView.h"
+#import "BaseLabel.h"
+#import "BaseButton.h"
+#import "BaseTableView.h"
+#import "BaseTableViewCell.h"
+#import "BaseCollectionView.h"
+#import "BaseCollectionViewCell.h"
+#import "FootReportCollectionViewCell.h"
+#import "SeachViewController.h"
+#import "GTMBase64.h"
+#import "NewSearch.h"
+#import "NewSearchTableViewCell.h"
+#import "searchInfoViewController.h"
+#import "searchInfo.h"
+#import <MediaPlayer/MediaPlayer.h>
+
+
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+
+//腾讯开放平台（对应QQ和QQ空间）SDK头文件
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+
+//微信SDK头文件
+#import "WXApi.h"
+
+//新浪微博SDK头文件
+#import "WeiboSDK.h"
+//新浪微博SDK需要在项目Build Settings中的Other Linker Flags添加"-ObjC"
+
+
+
+
+//#define segCHeight (myHeight / 24)
+
+
+
+
+
+
+#define myWidth ([UIScreen mainScreen].bounds.size.width)
+#define myHeight ([UIScreen mainScreen].bounds.size.height)
+#define navigationAppHeight (([UIApplication sharedApplication].statusBarFrame.size.height + 44))
+#define navigationHeight (44)
+#define tabBarheight (49)
+#define liuHeight (myHeight / 736 * 50)
+#define rotationHeight (myHeight / 736 * 200)
+#define reportTableRowH (myWidth / 414 * 50)
+#define sWidth (myWidth / 414)
+#define sHeight (myHeight / 736)
+//圆角
+#define cornerR (10)
+//news
+#define newsCellImageLeft (myWidth / 414 * 5)
+
+#define newCellHeight (myHeight / 736 * 100)
+
+//Video
+#define VideoImageLeft (myWidth / 414 * 60)
+//side
+#define sideButtonWidth (myWidth / 414 * 45)
+#define sideCellHeight (myWidth / 414 * 50)
+#define sideSideWidth (myWidth / 414 * 150)
+#define sideImageWidth (myWidth / 414 * 40)
+//字体
+#define Videofont (myWidth / 414 * 18)
+
+//图片
+#define backImage (@"near.png")
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
